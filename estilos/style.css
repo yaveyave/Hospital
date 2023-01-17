@@ -1,0 +1,40 @@
+#main-header{
+    background-color: rgba(97, 97, 97, 0.281);
+    height: 50px;
+}
+
+#main-header span {
+    color: rgb(0, 0, 0);
+}
+
+#subitulo{
+    float: right;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(to right, rgba(83, 83, 83, 0.459), rgba(85, 85, 85, 0.5));
+}
+
+footer{
+    margin-top: block;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.486);
+    color:white;
+}
+
+#cabezera-cuerpo li{
+    display: inline;
+    padding-left: 25px;
+    padding-right: 20px;
+    float: right ;
+
+}
+
+#img-base{
+    float: left;
+    padding-left: 25px;
+    width: 50px;
+    height: 50px;
+}
