@@ -15,7 +15,7 @@
 </header>
 
 <body>
-    <img id="img-base" src="./imagenes/base.png">
+    <img id="img-base" src="./imagenes/base.png" alt="Imagen portada del sitio web. medico con bata blanca">
 
     <nav id="cabezera-cuerpo"> 
     <ul>
@@ -27,13 +27,33 @@
     <span>Hopital Nuestra Familia</span>
 
     <section>
+        <img class="img-portada"  src="./imagenes/portada.jpeg">
+    
+    </section>
         
+    <section class="segunda-seccion"> 
+        Registro de Paciente
+        <div class="formulario-columna izquierda">
+            <p>Cedula<input type="text"name="ced" autofocus/></p>
+            <p>Nombres<input type="text" name="nom"/></p>
+            <p>Apellidos<input type="text"  name="ape"/></p>
+            <p>E-mail<input type="email" name="emai"/></p>
+            <p>Telefono<input type="tel"  name="telf"/></p>
+        </div>
+
+        <div class="formulario-columna-derecha">
+            <p>Direccion<input type="text" name="nom"/></p>
+            <p>Ciudad de Residencia<input type="text" name="ape"/></p>
+            <p>Fecha de Nacimiento<input type="email"  name="emai"/></p>
+            <p>Genero<input type="tel"  name="telf"/></p>
+        </div>     
+
     </section>
     
 
 </body>
 
-<footer>    
+<footer id="pie">    
     <span> Accesibilidad | </span>
     <span>Copyright | </span>
     <span>Declaracion de privacidad | </span>

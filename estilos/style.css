@@ -1,3 +1,7 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #main-header{
     background-color: rgba(97, 97, 97, 0.281);
     height: 50px;
@@ -17,11 +21,12 @@ body{
     background: linear-gradient(to right, rgba(83, 83, 83, 0.459), rgba(85, 85, 85, 0.5));
 }
 
-footer{
-    margin-top: block;
-    float: right;
-    background-color: rgba(0, 0, 0, 0.486);
-    color:white;
+#pie{
+    text-align: right;
+    background-color:rgba(39, 39, 75, 0.616);
+    color:rgba(253, 253, 255, 0.753);
+    width: 100%;
+    height: 30px;
 }
 
 #cabezera-cuerpo li{
@@ -38,3 +43,17 @@ footer{
     width: 50px;
     height: 50px;
 }
+
+.img-portada{
+    padding-top: 25px;
+    width: 100%;
+    height: 200px;
+    
+    padding-right: 10%;
+}
+
+.segunda-seccion{
+    padding-left: 25px;
+    background-color:rgba(30, 56, 112, 0.699);
+}
+
