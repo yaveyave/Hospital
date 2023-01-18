@@ -60,9 +60,10 @@ body{
 }
 
 .encabezado-seccion{
-    padding: 15px 0px 0 100px;
+    padding: 2px 0px 0 100px;
+    margin-top: 25px;
     color: yellow;
-    font-size: 23px;
+    font-size: 30px;
     background-color: black;
 }
 
@@ -74,7 +75,7 @@ body{
 
 .columna {
     padding: 20px;
-    margin: 25px 90px 25px 215px;      
+    margin: 2px 90px 10px 215px;      
     background-color: red;    
 }
 
