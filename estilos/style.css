@@ -57,3 +57,30 @@ body{
     background-color:rgba(30, 56, 112, 0.699);
 }
 
+
+.fomulario-contenedor {
+    display: flex;
+    align-items: center;
+    
+    
+  }
+.columna {
+    text-align: center;
+    flex:auto;    
+    
+}
+input{
+    margin-left: 50px;
+    justify-content: right;
+    flex:auto;
+    
+}    
+
+
+.boton-registro {
+    
+    float: right;
+    height: 35px;
+    width: 100px;
+    
+}

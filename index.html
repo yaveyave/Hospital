@@ -33,21 +33,26 @@
         
     <section class="segunda-seccion"> 
         Registro de Paciente
-        <div class="formulario-columna izquierda">
-            <p>Cedula<input type="text"name="ced" autofocus/></p>
-            <p>Nombres<input type="text" name="nom"/></p>
-            <p>Apellidos<input type="text"  name="ape"/></p>
-            <p>E-mail<input type="email" name="emai"/></p>
-            <p>Telefono<input type="tel"  name="telf"/></p>
-        </div>
+    
+        <div class="fomulario-contenedor">
+            <div class="columna">
+                <p>Cedula<input type="text" name="ced" autofocus/></p>
+                <p>Nombres<input type="text" name="nom"/></p>
+                <p>Apellidos<input type="text"  name="ape"/></p>
+                <p>E-mail<input type="email" name="emai"/></p>
+                <p>Telefono<input type="tel"  name="telf"/></p>
+            </div>
 
-        <div class="formulario-columna-derecha">
-            <p>Direccion<input type="text" name="nom"/></p>
-            <p>Ciudad de Residencia<input type="text" name="ape"/></p>
-            <p>Fecha de Nacimiento<input type="email"  name="emai"/></p>
-            <p>Genero<input type="tel"  name="telf"/></p>
-        </div>     
-
+            <div class="columna">
+                <p>Direccion<input type="text" name="dir"/></p>
+                <p>Ciudad de Residencia<input type="text" name="Ciud"/></p>
+                <p>Fecha de Nacimiento<input type="date"  name="Fecha"/></p>
+                <p>Genero<input type="text"  name="telf"/></p>
+            </div>   
+        </div> 
+        <button class="boton-registro" type="reset">Cancelar</button>
+        <button class="boton-registro" type="Submit">Registrar</button>       
+    
     </section>
     
 
