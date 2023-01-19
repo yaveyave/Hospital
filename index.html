@@ -5,26 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href= "./estilos/style.css" type="text/css">
+    <link rel="shortcut icon" href="./imagenes/favicon.png">
     <title>Hospital NF</title>
     
 </head>
 
 <header id="main-header">
     <span id="subitulo"> a A</span>
-    <span id="subitulo">Buscar</span>
+    <span id="subitulo"> <img class="lupa" src="./imagenes/busqueda.png"> </span>   
+    <span id="subitulo"> <button> Iniciar Sesion </button>  </span>
 </header>
 
 <body>
-    <img id="img-base" src="./imagenes/base.png" alt="Imagen portada del sitio web. medico con bata blanca">
+    <img id="img-base" src="./imagenes/nav.png" alt="Imagen portada del sitio web. medico con bata blanca">
 
     <nav id="cabezera-cuerpo"> 
     <ul>
-        <li>Nosotros</li>
-        <li>Servicios</li>
         <li>Contacto</li>
+        <li>Servicios</li>
+        <li>Nosotros</li>        
     </ul>
     </nav>
-    <span>Hopital Nuestra Familia</span>
+    <span id="Titulo">Hospital Nuestra Familia</span>
 
     <section>
         <img class="img-portada"  src="./imagenes/portada.jpeg">
@@ -36,20 +38,20 @@
         <form >
         <div class="fomulario-contenedor">
             <div class="columna" >
-                <p>Cedula <input  type="text" name="ced" autofocus/></p>
-                <p>Nombres<input  type="text" name="nom"/></p>
-                <p>Apellidos<input  type="text"  name="ape"/></p>
-                <p>E-mail<input  type="email" name="emai"/></p>
+                <p>Cedula <input  type="text" name="ced" autofocus required placeholder="0123456789"/></p>
+                <p>Nombres<input  type="text" name="nom" required placeholder="primer segundo"/></p>
+                <p>Apellidos<input  type="text"  name="ape" required placeholder="paterno materno"/></p>
+                <p>E-mail<input  type="email" name="emai" /></p>
                 <p>Telefono<input  type="tel"  name="telf"/></p>
             </div>
 
             <div class="columna" >
-                <p>Direccion<input  type="text" name="dir"/></p>
+                <p>Direccion<input  type="text" name="dir" required placeholder="calle e intersecciones"/></p>
                 <p>Ciudad de Residencia<input  type="text" name="Ciud"/></p>
-                <p>Fecha de Nacimiento<input  type="date"  name="Fecha"/></p>
+                <p>Fecha de Nacimiento<input  type="date"  name="Fecha" required/></p>
                 <p>Genero<input  type="text"  name="telf"/></p>
                 <input class="reg-canc" type="reset" value="Cancelar"> 
-                <input class="reg-canc" type="submit" value="Registrar"> 
+                <input class="reg-canc" id="reg" type="submit" value="Registrar"> 
             </div>   
         </div> 
                
